@@ -1,0 +1,112 @@
+/* Use a clean font and remove default page spacing */
+body {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #e8f4f8;
+}
+
+/* Style a short top header with the site name */
+.site-header {
+	padding: 14px 30px;
+	background-color: #0e7490;
+	color: #ffffff;
+	text-align: center;
+}
+
+/* Keep site name clear and simple */
+.site-header p {
+	margin: 0;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+/* Create a tall, eye-catching CTA banner */
+.cta-banner {
+	min-height: 85vh;
+	padding: 80px 30px;
+	text-align: center;
+	color: #ffffff;
+	background-color: #0b5f7a;
+	background-image: linear-gradient(rgba(14, 116, 144, 0.45), rgba(17, 94, 120, 0.45)), url("img/cta-bg.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+/* Style the main heading to stand out */
+.cta-banner h1 {
+	margin: 0;
+	font-size: 48px;
+	line-height: 1.2;
+}
+
+/* Style supporting text for easy reading */
+.cta-banner p {
+	max-width: 700px;
+	margin: 24px auto 36px;
+	font-size: 20px;
+	line-height: 1.6;
+}
+
+/* Make the CTA link look like a bright button */
+.cta-button {
+	display: inline-block;
+	padding: 16px 30px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #073b4c;
+	text-decoration: none;
+	background-color: #ffd166;
+	border-radius: 8px;
+}
+
+/* Add simple hover feedback for interaction */
+.cta-button:hover {
+	background-color: #ffbf3d;
+}
+
+/* Add spacing and background for the info section */
+.foster-info {
+	padding: 60px 20px;
+	background-color: #d9edf2;
+}
+
+/* Keep section content centered on the page */
+.foster-info-inner {
+	max-width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+/* Create two equal columns using simple inline-block layout */
+.info-column {
+	display: inline-block;
+	width: 45%;
+	vertical-align: middle;
+	text-align: left;
+}
+
+/* Add space between the image and text columns */
+.info-text {
+	margin-left: 4%;
+}
+
+/* Make the image fit neatly in its column */
+.info-column img {
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+}
+
+/* Style the information heading */
+.info-text h2 {
+	margin-top: 0;
+	font-size: 36px;
+	color: #0e7490;
+}
+
+/* Style the supporting information text */
+.info-text p {
+	font-size: 20px;
+	line-height: 1.6;
+	color: #073b4c;
+}
